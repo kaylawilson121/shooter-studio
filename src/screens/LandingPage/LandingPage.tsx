@@ -13,7 +13,7 @@ export const LandingPage = (): JSX.Element => {
       className="bg-white w-full min-h-screen relative overflow-hidden"
       data-model-id="65:214"
     >
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1920px] h-[965px] opacity-[0.12] pointer-events-none">
+      <div className="absolute top-[10%] left-1/2 -translate-x-1/2 w-full max-w-[1920px] h-[965px] opacity-[0.12] pointer-events-none">
         <div className="absolute w-[35.76%] h-[36.68%] top-[10.88%] left-[8.28%] bg-[#4183f1] rounded-[343.27px/177px] blur-[100px]" />
 
         <div className="absolute w-[48.28%] h-[49.53%] top-[42.38%] left-[44.04%] bg-cyan-500 rounded-[463.52px/239px] blur-[100px]" />

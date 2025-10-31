@@ -4,20 +4,32 @@ import { Button } from "../../../../components/ui/button";
 export const ImageGallerySection = (): JSX.Element => {
   return (
     <section className="flex flex-col items-center w-full justify-between">
-      <img
+      {/* <img
         className="w-full h-[164px] object-cover"
         alt="Version"
         src="https://c.animaapp.com/mhejq8cn4pmF0V/img/version-5.png"
-      />
-      {/* <div className="w-full h-[150px] border-b-[3px] border-white flex justify-between pt-[30px] pb-[30px] pl-[150px] pr-[150px] shadow-[0_0_14px_rgba(0,0,0,0.1)] backdrop-blur-[42px]">
-        <div className="flex w-[1520px] h-[60px] justify-between">
-          <div className="flex w-[115px] h-[40px] pt-[20px] pb-[20px] gap-[6px] justify-between ">
+      /> */}
+      <div className="w-full h-[150px] border-b-[3px] border-white flex justify-between items-center pt-[30px] pb-[30px] pl-[150px] pr-[150px] shadow-[0_0_14px_rgba(0,0,0,0.1)] backdrop-blur-[42px]">
+        <div className="flex w-[1520px] h-[60px] items-center">
+          <div className="flex w-[115px] h-[40px] pt-[10px] pb-[10px] gap-[6px] items-center">
             <div className="flex w-[115px] h-[20px] font-exo2 font-semibold text-[30px] leading-[20px] uppercase text-[#4183F1]">
               SHOOTR
             </div>
           </div>
+          <div className="flex w-[1405px] h-[60px] items-center justify-end">
+            <Button className="w-[128px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#E7E8E9] transition-colors mr-[20px]">
+              <span className="[font-family:'Poppins',Helvetica] flex w-[108px] h-[40px] py-[10px] px-[24px] gap-[8px] justify-center items-center text-center text-[18px] text-[#4183F1] leading-[100%]">
+                Sign In
+              </span>
+            </Button>
+            <Button className="w-[171px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#E7E8E9] transition-colors">
+              <span className="[font-family:'Poppins',Helvetica] flex w-[151px] h-[40px] py-[10px] px-[24px] gap-[8px] justify-center items-center text-center text-[18px] text-[#4183F1] leading-[100%]">
+                Sign Up
+              </span>
+            </Button>
+          </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="flex flex-col w-full max-w-[1520px] items-center gap-[50px] px-4 py-[50px]">
         <div className="flex flex-col items-center gap-[50px] w-full">
