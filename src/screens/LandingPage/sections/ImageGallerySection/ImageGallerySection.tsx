@@ -17,14 +17,14 @@ export const ImageGallerySection = (): JSX.Element => {
             </div>
           </div>
           <div className="flex w-[1405px] h-[60px] items-center justify-end">
-            <Button className="w-[128px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#E7E8E9] transition-colors mr-[20px]">
+            <Button className="w-[128px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#F1F2F3] transition-colors mr-[20px]">
               <span className="[font-family:'Poppins',Helvetica] flex w-[108px] h-[40px] py-[10px] px-[24px] gap-[8px] justify-center items-center text-center text-[18px] text-[#4183F1] leading-[100%]">
                 Sign In
               </span>
             </Button>
-            <Button className="w-[171px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#E7E8E9] transition-colors">
+            <Button className="w-[171px] h-[60px] p-[10px] gap-[10px] rounded-[100px] border-[1px] border-[#4183F1] bg-[#FAFBFE] hover:bg-[#F1F2F3] transition-colors">
               <span className="[font-family:'Poppins',Helvetica] flex w-[151px] h-[40px] py-[10px] px-[24px] gap-[8px] justify-center items-center text-center text-[18px] text-[#4183F1] leading-[100%]">
-                Sign Up
+                Get Started
               </span>
             </Button>
           </div>
